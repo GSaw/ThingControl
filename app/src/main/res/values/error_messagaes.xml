@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="missing_controls">Missing "controls"</string>
+    <string name="unknown_control">Unknown control :</string>
+    <string name="missing_portait_layout">Missing portrait layout</string>
+    <string name="empty_portait_layout">Empty portrait layout</string>
+    <string name="missing_landscape_layout">Missing landscape layout</string>
+    <string name="empty_landscape_layout">Empty landscape layout</string>
+    <string name="missing_orientation">Missing "orientation" parameter</string>
+    <string name="unknown_orientation">Wrong "orientation" parameter, should be either "portait" or "landscape"!</string>
+    <string name="missing_configuration">Missing configuration or not parseable</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.moontools.thingcontrol.controls.TCDisplay xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/back_shape"
+    android:padding="5dp"
+    android:layout_width="360dip"
+    android:layout_height="60dip"
+    android:layout_columnSpan="4">
+
+    <TextView
+        android:text="Актуально"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e5e5e5"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:layout_gravity="top"/>
+    <TextView
+        android:text="Температура: 20.5С"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5ECA9B"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_gravity="bottom"/>
+
+</org.moontools.thingcontrol.controls.TCDisplay>

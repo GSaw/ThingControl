@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="org.moontools.thingcontrol.ThingControlActivity">
+
+    <GridLayout
+        android:id="@+id/fullscreen_content"
+        android:keepScreenOn="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="8"
+        android:rowCount="15">
+
+        <include layout="@layout/tc_button"
+            />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="1"
+            android:background="#b30000"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="1"
+            android:background="#c30000"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="1"
+            android:background="#d30000"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="600dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="8"
+            android:layout_rowSpan="1"
+            android:background="#930000"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="150dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="1"
+            android:background="#934000"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="2"
+            android:background="#934100"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="1"
+            android:background="#c30000"
+            android:gravity="center"
+            android:text="xlarge3"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="1"
+            android:background="#c30000"
+            android:gravity="center"
+            android:text="xlarge"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+    </GridLayout>
+
+</FrameLayout>

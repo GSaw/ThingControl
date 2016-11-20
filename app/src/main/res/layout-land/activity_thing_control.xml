@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="org.moontools.thingcontrol.ThingControlActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <GridLayout
+        android:id="@+id/fullscreen_content"
+        android:keepScreenOn="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="15"
+        android:rowCount="8">
+
+        <include layout="@layout/tc_button"/>
+        <include layout="@layout/tc_button"/>
+        <include layout="@layout/tc_button"/>
+        <include layout="@layout/tc_button"/>
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="1"
+            android:background="#b30000"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="60dip"
+            android:layout_columnSpan="4"
+            android:layout_rowSpan="1"
+            android:background="#c30000"
+            android:gravity="center"
+            android:text="landscape"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+    </GridLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>

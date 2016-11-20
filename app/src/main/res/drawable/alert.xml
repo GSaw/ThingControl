@@ -1,0 +1,5 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connection_alert" android:oneshot="false">
+    <item android:drawable="@drawable/ic_disconnected" android:duration="500" />
+    <item android:drawable="@drawable/ic_disconnected" android:duration="500" />
+</animation-list>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <org.moontools.thingcontrol.controls.TCButton  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="5dp"
+        android:layout_width="90dip"
+        android:layout_height="60dip"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:layout_span="1"
+        android:layout_gravity="top"
+        android:background="@drawable/back_shape">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tc_button_small"
+            android:text="&lt;"
+            android:textColor="#FF5ECA9B"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonshape"
+            />
+    </org.moontools.thingcontrol.controls.TCButton>
